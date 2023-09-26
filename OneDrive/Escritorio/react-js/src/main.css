@@ -1,3 +1,4 @@
+/*reseteo del css*/
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,8 @@
 }
 
 :root {
-    --clr-main: #c56cee;
-    --clr-main-light: #efdaf9;
+    --clr-main:#ee8bf1;
+    --clr-main-light: #f0cbf0;
 }
 
 .container {
@@ -26,7 +27,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--clr-main);
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgba(85, 83, 83, 0.247);
 }
 
 .logo {
@@ -90,7 +91,7 @@
 }
 
 .producto .ver-mas:hover {
-    background-color: black;
+    background-color: #ee8bf1;
     color: white;
 }
 
@@ -148,7 +149,7 @@
 
 .item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .agregar-al-carrito, .enviar {
