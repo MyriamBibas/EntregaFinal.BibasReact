@@ -1,12 +1,167 @@
 [
     {
         "id": 1,
-        "titulo": "Chocolate - Milk",
-        "descripcion": "Aenean auctor gravida sem.",
-        "categoria": "medias",
-        "imagen": "http://dummyimage.com/200x100.png/cc0000/ffffff",
+        "titulo": "Cheescake de Frutos rojos" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "./img/cheescake.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+
+    {
+        "id": 2,
+        "titulo": "Lemon pie" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "./img/lemonpie.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Budin de Chocolate" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "./img/budinchocolate.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "Budin de Banana" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "./img/budinbanana.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "Tostado miga" ,
+        "categoria": "Sandwich",
+        "imagen": "./img/tostadomiga.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "titulo": "Tostado arabe" ,
+        "categoria": "Sandwich",
+        "imagen": "./img/arabejyq.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "Pebete de jamon y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "./img/pebetejyq.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "Sandwich de salame y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "./img/sandwichsalameyqueso.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "titulo": "Medialuna de jamon y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "./img/medialunajyq.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+
+    {
+        "id": 10,
+        "titulo": "Licuado de Frutilla" ,
+        "categoria": "Licuados",
+        "imagen": "./img/licuadofrutilla.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "titulo": "Licuado de Banana y avena" ,
+        "categoria": "Licuados",
+        "imagen": "./img/licuadobananayavena.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 12,
+        "titulo": "Licuado verde de anana y menta" ,
+        "categoria": "Licuados",
+        "imagen": "./img/licuadoananamenta.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 13,
+        "titulo": "Licuado de Papaya" ,
+        "categoria": "Licuados",
+        "imagen": "./img/licuadopapaya.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 14,
+        "titulo": "Cafe con leche" ,
+        "categoria": "Cafes",
+        "imagen": "./img/cafeconleche.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "titulo": "Flat White" ,
+        "categoria": "Cafes",
+        "imagen": "./img/flatwhite.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 16,
+        "titulo": "Frapuccino" ,
+        "categoria": "Cafes",
+        "imagen": "./img/frapuccino.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 17,
+        "titulo": "Capuccino" ,
+        "categoria": "Cafes",
+        "imagen": "./img/capuccino.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 18,
+        "titulo": "Cafe Solo" ,
+        "categoria": "Cafes",
+        "imagen": "./img/cafesolo.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 19,
+        "titulo": "Brunch 1" ,
+        "categoria": "Brunch",
+        "imagen": "./img/brunch1.jpg",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 20,
+        "titulo": "Brunch 2" ,
+        "categoria": "Brunch",
+        "imagen": "./img/brunch2.jpg",
         "precio": 1500,
         "stock": 10
     }
+
+
     
 ]
