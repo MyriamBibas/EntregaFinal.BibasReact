@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { toCapital } from '../helpers/toCapital'
+import data from "../data/data.json";
 
 const Item = ( {producto} ) => {
   return (
