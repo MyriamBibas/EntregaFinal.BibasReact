@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "Cheescake de Frutos rojos" ,
         "categoria": "Tortas y Budines",
-        "imagen": "./img/cheescake.jpg",
+        "imagen": "https://www.istockphoto.com/es/foto/cheesecake-con-bayas-gm486977229-39224838?phrase=pastel",
         "precio": 1500,
         "stock": 10
     },
