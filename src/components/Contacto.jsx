@@ -16,7 +16,7 @@ const Contacto = () => {
 
             <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />
             <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
-            <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
+            <input type="tel" placeholder="Ingresá tu teléfono" {...register("telefono")} />
 
             <button className="enviar" type="submit">Enviar</button>
 
