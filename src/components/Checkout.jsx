@@ -8,7 +8,7 @@ const Checkout = () => {
     const [pedidoId, setPedidoId] = useState("");
     const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
 
-    const { register, handleSubmit, formState: { errors } } = useForm(); // Añade "formState: { errors }" para desestructurar la variable errors.
+    const { register, handleSubmit, formState: { errors } } = useForm(); 
 
     const comprar = (data) => {
         const pedido = {
