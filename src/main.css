@@ -7,7 +7,7 @@
 }
 
 :root {
-    --clr-main:#ee8bf1;
+    --clr-main: #ee8bf1;
     --clr-main-light: #f0cbf0;
 }
 
@@ -66,7 +66,7 @@
     overflow: hidden;
 }
 
-.producto > div {
+.producto>div {
     padding: 1rem;
     background-color: var(--clr-main-light);
     display: flex;
@@ -74,7 +74,7 @@
     gap: .5rem;
 }
 
-.producto > img {
+.producto>img {
     width: 100%;
     aspect-ratio: 2/1;
     object-fit: cover;
@@ -129,7 +129,9 @@
     margin-top: 1rem;
 }
 
-.item-count button, .agregar-al-carrito, .enviar {
+.item-count button,
+.agregar-al-carrito,
+.enviar {
     background-color: var(--clr-main);
     border: 0;
     width: 2rem;
@@ -147,14 +149,37 @@
     transition: .2s;
 }
 
-.item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
+.item-count button:hover,
+.agregar-al-carrito:hover,
+.enviar:hover {
     background-color: white;
     color: rgb(0, 0, 0);
 }
 
-.agregar-al-carrito, .enviar {
+.agregar-al-carrito,
+.enviar {
     width: auto;
     height: auto;
     margin-top: 1rem;
     padding: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.formulario input:focus {
+    outline: 0;
+    border: 2px solid var(--clr-main);
+    outline: 2px solid var(--clr-main);
 }

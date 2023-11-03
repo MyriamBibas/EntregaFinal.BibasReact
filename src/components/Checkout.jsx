@@ -1,17 +1,14 @@
-import React, { useContext, useState } from 'react'
-import { CartContext } from '../context/CartContext';
-import { useForm } from 'react-hook-form';
+import React, { useContext, useState } from "react";
+import { CartContext } from "../context/CartContext";
+import { useForm } from "react-hook-form";
 import { collection, addDoc } from "firebase/firestore";
-import { db } from '../firebase/config';
+import { db } from "../firebase/config";
 
 const Checkout = () => {
-
-    
     const [pedidoId, setPedidoId] = useState("");
-
     const { carrito, precioTotal, vaciarCarrito } = useContext(CartContext);
 
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit, formState: { errors } } = useForm(); // Añade "formState: { errors }" para desestructurar la variable errors.
 
     const comprar = (data) => {
         const pedido = {
@@ -27,8 +24,7 @@ const Checkout = () => {
             .then((doc) => {
                 setPedidoId(doc.id);
                 vaciarCarrito();
-            })
-
+            });
     }
 
     if (pedidoId) {
@@ -40,20 +36,23 @@ const Checkout = () => {
         )
     }
 
-  return (
-    <div className="container">
-        <h1 className="main-title">Finalizar compra</h1>
-        <form className="formulario" onSubmit={handleSubmit(comprar)}>
+    return (
+        <div className="container">
+            <h1 className="main-title">Finalizar compra</h1>
+            <form className="formulario" onSubmit={handleSubmit(comprar)}>
+                <input type="text" placeholder="Ingresá nombre" {...register("nombre", { required: true })} />
+                {errors.nombre && <p>Este campo es obligatorio</p>}
 
-            <input type="text" placeholder="Ingresá tu nombre" {...register("nombre")} />
-            <input type="email" placeholder="Ingresá tu e-mail" {...register("email")} />
-            <input type="phone" placeholder="Ingresá tu teléfono" {...register("telefono")} />
+                <input type="email" placeholder="Ingresá e-mail" {...register("email", { required: true })} />
+                {errors.email && <p>Este campo es obligatorio</p>}
 
-            <button className="enviar" type="submit">Comprar</button>
+                <input type="tel" placeholder="Ingresá teléfono" {...register("telefono", { required: true })} />
+                {errors.telefono && <p>Este campo es obligatorio</p>}
 
-        </form>
-    </div>
-  )
+                <button className="enviar" type="submit">Comprar</button>
+            </form>
+        </div>
+    )
 }
 
-export default Checkout
+export default Checkout;
