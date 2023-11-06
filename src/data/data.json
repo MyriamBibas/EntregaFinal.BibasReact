@@ -1,0 +1,166 @@
+[
+    {
+        "id": 1,
+        "titulo": "Cheescake de Frutos rojos" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "https://www.freepik.com/free-photo/tasty-cake-glass-arrangement_16137694.htm#query=postres&position=29&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+
+    {
+        "id": 2,
+        "titulo": "Lemon pie" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "https://www.freepik.com/free-photo/homemade-newyork-cheesecake-with-lemon-mint_9280511.htm#query=lemon%20dessert&position=8&from_view=search&track=ais",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Budin de Chocolate" ,
+        "categoria": "Budin de Chocolate",
+        "imagen": "https://www.freepik.com/free-photo/chocolate-brownie-cake-piece-stack-plate-homemade-pastries_5030112.htm#query=chocolate%20dessert&position=28&from_view=search&track=ais",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 4,
+        "titulo": "Budin de Banana" ,
+        "categoria": "Tortas y Budines",
+        "imagen": "https://www.freepik.com/free-photo/vertical-shot-slices-delicious-banana-bread-with-chocolate-chunks-walnut-plate_13153441.htm#query=banana%20dessert&position=31&from_view=search&track=ais",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 5,
+        "titulo": "Tostado miga" ,
+        "categoria": "Sandwich",
+        "imagen": "https://www.freepik.com/free-photo/blt-sandwich_6978231.htm#query=sandwiches&position=33&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 6,
+        "titulo": "Tostado arabe" ,
+        "categoria": "Sandwich",
+        "imagen": "https://www.freepik.com/free-photo/side-view-bacon-sandwich-with-fried-bacon-lettuce-bread-toast-black-green-olives-french-fries-plate_8195875.htm#query=sandwich&position=35&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 7,
+        "titulo": "Pebete de jamon y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 8,
+        "titulo": "Sandwich de salame y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "https://www.freepik.com/free-photo/fresh-tasty-sandwich_6948442.htm#query=sandwich&position=30&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 9,
+        "titulo": "Medialuna de jamon y queso" ,
+        "categoria": "Sandwich",
+        "imagen": "https://www.freepik.com/free-photo/croissants-wooden-paper-bag-flat-lay_9297424.htm#query=croissant&from_query=cruasant&position=24&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+
+    {
+        "id": 10,
+        "titulo": "Licuado de Frutilla" ,
+        "categoria": "Licuados",
+        "imagen": "https://www.freepik.com/free-photo/vertical-shot-delicious-mix-berry-milkshake-with-different-berries-bowl-it_7814873.htm#query=smoothie&position=24&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "titulo": "Licuado de Banana y avena" ,
+        "categoria": "Licuados",
+        "imagen": "https://www.freepik.com/free-photo/high-angle-delicious-banana-smoothie_12493738.htm#query=smoothie&position=25&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 12,
+        "titulo": "Licuado verde de anana y menta" ,
+        "categoria": "Licuados",
+        "imagen": "https://www.freepik.com/free-ai-image/delicious-cookies-arrangement_58593250.htm#page=3&query=smoothie&position=8&from_view=search&track=sph",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 13,
+        "titulo": "Licuado de Papaya" ,
+        "categoria": "Licuados",
+        "imagen": "https://www.freepik.com/free-ai-image/ai-generated-image-banana_58598068.htm#fromView=search&term=smoothie&page=1&position=36&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 14,
+        "titulo": "Cafe con leche" ,
+        "categoria": "Cafes",
+        "imagen": "https://www.freepik.com/free-ai-image/barista-making-cup-coffee_59583873.htm#fromView=search&term=coffe+with+milk&page=1&position=21&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 15,
+        "titulo": "Flat White" ,
+        "categoria": "Cafes",
+        "imagen": "https://www.freepik.com/free-ai-image/delicious-coffee-cup-indoors_60221411.htm#fromView=search&term=coffe+with+milk&page=1&position=31&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 16,
+        "titulo": "Frapuccino" ,
+        "categoria": "Cafes",
+        "imagen": "https://www.freepik.com/free-ai-image/caffee-latte-with-whipped-cream_55959755.htm#fromView=search&term=coffe+with+milk&page=1&position=8&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 17,
+        "titulo": "Capuccino" ,
+        "categoria": "Cafes",
+        "imagen": "https://www.freepik.com/free-ai-image/delicious-quality-coffee-cup_59582876.htm#fromView=search&term=coffe+with+milk&page=1&position=22&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 18,
+        "titulo": "Cafe Solo" ,
+        "categoria": "Cafes",
+        "imagen": "https://www.freepik.com/free-ai-image/delicious-quality-coffee-cup_59582914.htm#fromView=search&term=coffe+with+milk&page=1&position=25&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 19,
+        "titulo": "Brunch 1" ,
+        "categoria": "Brunch",
+        "imagen": "https://www.freepik.com/free-ai-image/freshly-grilled-bacon-tomato-sandwich-meal-generated-by-ai_41280792.htm#fromView=search&term=brunch&page=1&position=1&track=ais_ai_generated&regularType=ai",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 20,
+        "titulo": "Brunch 2" ,
+        "categoria": "Brunch",
+        "imagen": "https://www.freepik.com/free-photo/fried-chicken-burnt-potatoes-with-vegetable-salad_6779806.htm",
+        "precio": 1500,
+        "stock": 10
+    }
+
+    
+]
